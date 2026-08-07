@@ -1,0 +1,68 @@
+{
+    "version": 1,
+    "name": "inputPlayer",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "dd77fcf7-f7bc-41ae-b3e1-12b38bfa7bae",
+            "actions": [
+                {
+                    "name": "voar",
+                    "type": "Button",
+                    "id": "11b1bdd9-0a1e-45ce-96eb-879eae3e62c7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f6364b87-d50c-4154-adf7-0a081ebebf0b",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "voar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "61b4585f-6f76-480c-a7e8-4f06c8772e23",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "voar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a626bc79-caef-466e-9693-610d09e6becb",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "voar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d14bf982-8cbb-42b1-80e8-bb471c484fdc",
+                    "path": "<Touchscreen>/touch*/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "voar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
